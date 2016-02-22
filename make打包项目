@@ -1,0 +1,233 @@
+Last login: Mon Feb 22 08:27:55 on console
+➜  ~ cd Desktop/Dacai.iOS 
+➜  Dacai.iOS git:(develop) ✗ ls -a 
+.                          Jackpot WatchKit App
+..                         Jackpot WatchKit Extension
+.DS_Store                  Jackpot.xcodeproj
+.clang-format              Jackpot.xcworkspace
+.git                       Kathmandu
+.gitignore                 Podfile
+AlgorithmToolkit           Podfile.lock
+DPWatchShareDataDefine.h   Pods
+Jackpot                    make.py
+➜  Dacai.iOS git:(develop) ✗ python make.py 
+Traceback (most recent call last):
+  File "make.py", line 9, in <module>
+    from biplist import *
+ImportError: No module named biplist
+➜  Dacai.iOS git:(develop) ✗ brew search virtualenv
+pyenv-virtualenv		 pyenv-virtualenvwrapper
+➜  Dacai.iOS git:(develop) ✗ brew install pyenv-virtualenv
+==> Downloading https://github.com/yyuu/pyenv-virtualenv/archive/v
+Already downloaded: /Library/Caches/Homebrew/pyenv-virtualenv-20150119.tar.gz
+==> ./install.sh
+==> Caveats
+To enable auto-activation add to your profile:
+  if which pyenv-virtualenv-init > /dev/null; then eval "$(pyenv virtualenv-init -)"; fi
+
+==> Summary
+🍺  /usr/local/Cellar/pyenv-virtualenv/20150119: 11 files, 60K, built in 2 seconds
+➜  Dacai.iOS git:(develop) ✗ virtualenv 
+You must provide a DEST_DIR
+Usage: virtualenv [OPTIONS] DEST_DIR
+
+Options:
+  --version             show program's version number and exit
+  -h, --help            show this help message and exit
+  -v, --verbose         Increase verbosity.
+  -q, --quiet           Decrease verbosity.
+  -p PYTHON_EXE, --python=PYTHON_EXE
+                        The Python interpreter to use, e.g.,
+                        --python=python2.5 will use the python2.5 interpreter
+                        to create the new environment.  The default is the
+                        interpreter that virtualenv was installed with
+                        (/usr/bin/python)
+  --clear               Clear out the non-root install and start from scratch.
+  --no-site-packages    DEPRECATED. Retained only for backward compatibility.
+                        Not having access to global site-packages is now the
+                        default behavior.
+  --system-site-packages
+                        Give the virtual environment access to the global
+                        site-packages.
+  --always-copy         Always copy files rather than symlinking.
+  --unzip-setuptools    Unzip Setuptools when installing it.
+  --relocatable         Make an EXISTING virtualenv environment relocatable.
+                        This fixes up scripts and makes all .pth files
+                        relative.
+  --no-setuptools       Do not install setuptools (or pip) in the new
+                        virtualenv.
+  --no-pip              Do not install pip in the new virtualenv.
+  --no-wheel            Do not install wheel in the new virtualenv.
+  --extra-search-dir=DIR
+                        Directory to look for setuptools/pip distributions in.
+                        This option can be used multiple times.
+  --never-download      DEPRECATED. Retained only for backward compatibility.
+                        This option has no effect. Virtualenv never downloads
+                        pip or setuptools.
+  --prompt=PROMPT       Provides an alternative prompt prefix for this
+                        environment.
+  --setuptools          DEPRECATED. Retained only for backward compatibility.
+                        This option has no effect.
+  --distribute          DEPRECATED. Retained only for backward compatibility.
+                        This option has no effect.
+➜  Dacai.iOS git:(develop) ✗ virtualenv ~/.pyenv/py27
+New python executable in /Users/ray/.pyenv/py27/bin/python
+Installing setuptools, pip, wheel...done.
+➜  Dacai.iOS git:(develop) ✗ cd ~/.pyenv/py27 
+➜  py27 ll
+total 0
+drwxr-xr-x  15 ray  staff   510B  2 22 09:00 bin
+drwxr-xr-x   3 ray  staff   102B  2 22 09:00 include
+drwxr-xr-x   3 ray  staff   102B  2 22 09:00 lib
+➜  py27 cd bin 
+➜  bin ll
+total 168
+-rw-r--r--  1 ray  staff   2.2K  2 22 09:00 activate
+-rw-r--r--  1 ray  staff   1.2K  2 22 09:00 activate.csh
+-rw-r--r--  1 ray  staff   2.4K  2 22 09:00 activate.fish
+-rw-r--r--  1 ray  staff   1.1K  2 22 09:00 activate_this.py
+-rwxr-xr-x  1 ray  staff   250B  2 22 09:00 easy_install
+-rwxr-xr-x  1 ray  staff   250B  2 22 09:00 easy_install-2.7
+-rwxr-xr-x  1 ray  staff   222B  2 22 09:00 pip
+-rwxr-xr-x  1 ray  staff   222B  2 22 09:00 pip2
+-rwxr-xr-x  1 ray  staff   222B  2 22 09:00 pip2.7
+-rwxr-xr-x  1 ray  staff    34K  2 22 09:00 python
+lrwxr-xr-x  1 ray  staff     6B  2 22 09:00 python2 -> python
+lrwxr-xr-x  1 ray  staff     6B  2 22 09:00 python2.7 -> python
+-rwxr-xr-x  1 ray  staff   229B  2 22 09:00 wheel
+➜  bin source activate
+(py27)➜  bin pip install bipist
+Collecting bipist
+C  Could not find a version that satisfies the requirement bipist (from versions: )
+No matching distribution found for bipist
+You are using pip version 7.1.2, however version 8.0.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+(py27)➜  bin pip install biplist
+Collecting biplist
+  Downloading biplist-1.0.1.tar.gz
+Building wheels for collected packages: biplist
+  Running setup.py bdist_wheel for biplist
+  Stored in directory: /Users/ray/Library/Caches/pip/wheels/c4/fb/cf/61f63e86760f06c9c5d7defa14a89d76ad096167db60787d71
+Successfully built biplist
+Installing collected packages: biplist
+Successfully installed biplist-1.0.1
+You are using pip version 7.1.2, however version 8.0.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+(py27)➜  bin python
+Python 2.7.10 (default, Jul 14 2015, 19:46:27) 
+[GCC 4.2.1 Compatible Apple LLVM 6.0 (clang-600.0.39)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import biplist
+>>> exit()
+(py27)➜  bin 
+(py27)➜  bin 
+(py27)➜  bin 
+(py27)➜  bin pwd
+/Users/ray/.pyenv/py27/bin
+(py27)➜  bin ll
+total 168
+-rw-r--r--  1 ray  staff   2.2K  2 22 09:00 activate
+-rw-r--r--  1 ray  staff   1.2K  2 22 09:00 activate.csh
+-rw-r--r--  1 ray  staff   2.4K  2 22 09:00 activate.fish
+-rw-r--r--  1 ray  staff   1.1K  2 22 09:00 activate_this.py
+-rwxr-xr-x  1 ray  staff   250B  2 22 09:00 easy_install
+-rwxr-xr-x  1 ray  staff   250B  2 22 09:00 easy_install-2.7
+-rwxr-xr-x  1 ray  staff   222B  2 22 09:00 pip
+-rwxr-xr-x  1 ray  staff   222B  2 22 09:00 pip2
+-rwxr-xr-x  1 ray  staff   222B  2 22 09:00 pip2.7
+-rwxr-xr-x  1 ray  staff    34K  2 22 09:00 python
+lrwxr-xr-x  1 ray  staff     6B  2 22 09:00 python2 -> python
+lrwxr-xr-x  1 ray  staff     6B  2 22 09:00 python2.7 -> python
+-rwxr-xr-x  1 ray  staff   229B  2 22 09:00 wheel
+(py27)➜  bin cd ~                                        
+(py27)➜  ~ deactivate 
+➜  ~ cd ~/.pyenv/py27/bin 
+➜  bin source activate
+(py27)➜  bin python/Users/ray/Desktop/Dacai.iOS/make.py 
+zsh: not a directory: python/Users/ray/Desktop/Dacai.iOS/make.py
+(py27)➜  bin python /Users/ray/Desktop/Dacai.iOS/make.py 
+Traceback (most recent call last):
+  File "/Users/ray/Desktop/Dacai.iOS/make.py", line 275, in <module>
+    ipa_builder = builder_configure.ipa_builder()
+  File "/Users/ray/Desktop/Dacai.iOS/make.py", line 221, in ipa_builder
+    self.init_configure()
+  File "/Users/ray/Desktop/Dacai.iOS/make.py", line 165, in init_configure
+    project_info = biplist.readPlist(self.project_info_path)
+NameError: global name 'biplist' is not defined
+(py27)➜  bin ./python /Users/ray/Desktop/Dacai.iOS/make.py 
+Traceback (most recent call last):
+  File "/Users/ray/Desktop/Dacai.iOS/make.py", line 275, in <module>
+    ipa_builder = builder_configure.ipa_builder()
+  File "/Users/ray/Desktop/Dacai.iOS/make.py", line 221, in ipa_builder
+    self.init_configure()
+  File "/Users/ray/Desktop/Dacai.iOS/make.py", line 165, in init_configure
+    project_info = biplist.readPlist(self.project_info_path)
+NameError: global name 'biplist' is not defined
+(py27)➜  bin python 
+Python 2.7.10 (default, Jul 14 2015, 19:46:27) 
+[GCC 4.2.1 Compatible Apple LLVM 6.0 (clang-600.0.39)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import biplist
+>>> exit()
+(py27)➜  bin python /Users/ray/Desktop/Dacai.iOS/make.py   
+(py27)➜  bin python /Users/ray/Desktop/Dacai.iOS/make.py 
+a
+b
+(py27)➜  bin python /Users/ray/Desktop/Dacai.iOS/make.py 
+a
+b
+c
+d
+1
+2
+(py27)➜  bin python /Users/ray/Desktop/Dacai.iOS/make.py 
+a
+b
+c
+d
+1
+Traceback (most recent call last):
+  File "/Users/ray/Desktop/Dacai.iOS/make.py", line 280, in <module>
+    ipa_builder.start()
+  File "/Users/ray/Desktop/Dacai.iOS/make.py", line 82, in start
+    if not self.archive():
+  File "/Users/ray/Desktop/Dacai.iOS/make.py", line 59, in archive
+    except Excpetion as e:
+NameError: global name 'Excpetion' is not defined
+(py27)➜  bin python /Users/ray/Desktop/Dacai.iOS/make.py 
+a
+b
+c
+d
+1
+error
+2
+(py27)➜  bin python /Users/ray/Desktop/Dacai.iOS/make.py 
+a
+b
+c
+d
+1
+Traceback (most recent call last):
+  File "/Users/ray/Desktop/Dacai.iOS/make.py", line 280, in <module>
+    ipa_builder.start()
+  File "/Users/ray/Desktop/Dacai.iOS/make.py", line 82, in start
+    if not self.archive():
+  File "/Users/ray/Desktop/Dacai.iOS/make.py", line 60, in archive
+    print 'error: ' + e
+TypeError: cannot concatenate 'str' and 'exceptions.OSError' objects
+(py27)➜  bin python /Users/ray/Desktop/Dacai.iOS/make.py 
+a
+b
+c
+d
+1
+error: [Errno 2] No such file or directory: '/Users/ray/Desktop/Dacai.iOS '
+2
+(py27)➜  bin python /Users/ray/Desktop/Dacai.iOS/make.py 
+a
+b
+c
+d
+1
+[Info] Loading settings for scheme 'Jackpot' ... (6507 ms)

@@ -1,0 +1,228 @@
+                                                                              
+➜  ~ protobuf --version
+zsh: command not found: protobuf
+➜  ~ objectivec/DevTools/full_mac_build.sh
+zsh: no such file or directory: objectivec/DevTools/full_mac_build.sh
+➜  ~ ls
+Desktop   Downloads Movies    Pictures  a.out
+Documents Library   Music     Public    main.cpp
+➜  ~ ll
+total 32
+drwx------+ 31 sxf  staff   1.0K  2 19 11:11 Desktop
+drwx------+ 19 sxf  staff   646B  1 11 16:59 Documents
+drwx------+ 29 sxf  staff   986B  2 22 09:19 Downloads
+drwx------@ 60 sxf  staff   2.0K  1 11 16:58 Library
+drwx------+  5 sxf  staff   170B  8 11  2015 Movies
+drwx------+  5 sxf  staff   170B  6  3  2014 Music
+drwx------+  9 sxf  staff   306B 10 10 11:23 Pictures
+drwxr-xr-x+  6 sxf  staff   204B  5 16  2014 Public
+-rwxr-xr-x   1 sxf  staff   8.7K  3 11  2015 a.out
+-rw-r--r--   1 sxf  staff   891B  3 11  2015 main.cpp
+➜  ~ cd /Users/sxf/Downloads/protobuf-3.0.0-beta-2 
+➜  protobuf-3.0.0-beta-2 objectivec/DevTools/full_mac_build.sh         
+
+========================================================================
+    Running autogen & configure
+========================================================================
+========================================================================
+    Building
+========================================================================
+============================================================================
+Testsuite summary for Protocol Buffers 3.0.0-beta-2
+============================================================================
+
+➜  protobuf-3.0.0-beta-2 
+➜  protobuf-3.0.0-beta-2 
+➜  protobuf-3.0.0-beta-2 
+➜  protobuf-3.0.0-beta-2 ll
+total 4080
+-rw-r--r--@  1 sxf  staff    25K 12 31 05:21 BUILD
+-rw-r--r--@  1 sxf  staff    47K 12 31 05:21 CHANGES.txt
+-rw-r--r--@  1 sxf  staff   3.8K  6 16  2015 CONTRIBUTORS.txt
+-rw-r--r--@  1 sxf  staff   9.3K  6 16  2015 INSTALL.txt
+-rw-r--r--@  1 sxf  staff   2.1K 11 20 04:50 LICENSE
+-rw-r--r--   1 sxf  staff    81K  2 22 09:31 Makefile
+-rw-r--r--@  1 sxf  staff    53K 12 29 07:02 Makefile.am
+-rw-r--r--   1 sxf  staff    80K  2 22 09:30 Makefile.in
+-rw-r--r--@  1 sxf  staff   2.1K 10 28 04:02 Protobuf.podspec
+-rw-r--r--@  1 sxf  staff   6.6K  6 16  2015 README.md
+-rw-r--r--@  1 sxf  staff   682B 10 28 04:02 WORKSPACE
+-rw-r--r--   1 sxf  staff    45K  2 22 09:30 aclocal.m4
+-rwxr-xr-x   1 sxf  staff   5.7K  2 22 09:30 ar-lib
+-rwxr-xr--@  1 sxf  staff   1.1K 10 28 04:02 autogen.sh
+drwxr-xr-x@ 14 sxf  staff   476B 12 31 05:26 cmake
+-rwxr-xr-x   1 sxf  staff   7.2K  2 22 09:30 compile
+-rwxr-xr-x   1 sxf  staff    42K  2 22 09:30 config.guess
+-rw-r--r--   1 sxf  staff   4.0K  2 22 09:31 config.h
+-rw-r--r--   1 sxf  staff   3.7K  2 22 09:30 config.h.in
+-rw-r--r--   1 sxf  staff    55K  2 22 09:31 config.log
+-rwxr-xr-x   1 sxf  staff    68K  2 22 09:31 config.status
+-rwxr-xr-x   1 sxf  staff    35K  2 22 09:30 config.sub
+-rwxr-xr--@  1 sxf  staff   638K  2 22 09:30 configure
+-rw-r--r--@  1 sxf  staff   5.9K 12 29 07:02 configure.ac
+drwxr-xr-x@ 40 sxf  staff   1.3K  2 22 09:33 conformance
+-rwxr-xr-x   1 sxf  staff    23K  2 22 09:30 depcomp
+drwxr-xr-x@  5 sxf  staff   170B 12 31 05:26 editors
+drwxr-xr-x@ 15 sxf  staff   510B 12 31 05:26 examples
+-rwxr-xr--@  1 sxf  staff   3.1K 10 28 04:02 generate_descriptor_proto.sh
+drwxr-xr-x@ 27 sxf  staff   918B  2 22 09:32 gmock
+-rw-r--r--@  1 sxf  staff   661B 12 15 06:09 gmock.BUILD
+-rwxr-xr-x   1 sxf  staff    14K  2 22 09:30 install-sh
+-rwxr-xr-x   1 sxf  staff   337K  2 22 09:31 libtool
+-rw-r--r--   1 sxf  staff   316K  2 22 09:30 ltmain.sh
+drwxr-xr-x@ 11 sxf  staff   374B  2 22 09:30 m4
+-rwxr-xr-x   1 sxf  staff   6.7K  2 22 09:30 missing
+drwxr-xr-x@ 52 sxf  staff   1.7K  2 22 09:31 objectivec
+-rw-r--r--   1 sxf  staff   298B  2 22 09:31 protobuf-lite.pc
+-rw-r--r--@  1 sxf  staff   298B  6 16  2015 protobuf-lite.pc.in
+-rw-r--r--@  1 sxf  staff   8.1K 12 15 06:09 protobuf.bzl
+-rw-r--r--   1 sxf  staff   317B  2 22 09:31 protobuf.pc
+-rw-r--r--@  1 sxf  staff   319B  6 16  2015 protobuf.pc.in
+-rw-r--r--@  1 sxf  staff   227B 12 15 06:09 six.BUILD
+drwxr-xr-x@ 33 sxf  staff   1.1K  2 22 09:33 src
+-rw-r--r--   1 sxf  staff    23B  2 22 09:31 stamp-h1
+-rwxr-xr-x   1 sxf  staff   4.5K  2 22 09:30 test-driver
+-rwxr-xr--@  1 sxf  staff   5.9K 10 27 05:58 update_file_lists.sh
+drwxr-xr-x@  3 sxf  staff   102B 12 31 05:26 util
+➜  protobuf-3.0.0-beta-2 ls 
+BUILD                        conformance
+CHANGES.txt                  depcomp
+CONTRIBUTORS.txt             editors
+INSTALL.txt                  examples
+LICENSE                      generate_descriptor_proto.sh
+Makefile                     gmock
+Makefile.am                  gmock.BUILD
+Makefile.in                  install-sh
+Protobuf.podspec             libtool
+README.md                    ltmain.sh
+WORKSPACE                    m4
+aclocal.m4                   missing
+ar-lib                       objectivec
+autogen.sh                   protobuf-lite.pc
+cmake                        protobuf-lite.pc.in
+compile                      protobuf.bzl
+config.guess                 protobuf.pc
+config.h                     protobuf.pc.in
+config.h.in                  six.BUILD
+config.log                   src
+config.status                stamp-h1
+config.sub                   test-driver
+configure                    update_file_lists.sh
+configure.ac                 util
+➜  protobuf-3.0.0-beta-2 cd src/                
+➜  src ll
+total 5048
+-rw-r--r--  1 sxf  staff   703K  2 22 09:31 Makefile
+-rw-r--r--@ 1 sxf  staff    48K 12 29 07:02 Makefile.am
+-rw-r--r--  1 sxf  staff   776K  2 22 09:30 Makefile.in
+drwxr-xr-x@ 3 sxf  staff   102B 12 31 05:26 google
+-rw-r--r--  1 sxf  staff   969B  2 22 09:32 libprotobuf-lite.la
+-rw-r--r--  1 sxf  staff   939B  2 22 09:32 libprotobuf.la
+-rw-r--r--  1 sxf  staff   1.0K  2 22 09:32 libprotoc.la
+-rwxr-xr-x  1 sxf  staff   6.7K  2 22 09:33 protobuf-lazy-descriptor-test
+-rw-r--r--  1 sxf  staff   5.4K  2 22 09:33 protobuf-lazy-descriptor-test.log
+-rw-r--r--  1 sxf  staff    82B  2 22 09:33 protobuf-lazy-descriptor-test.trs
+-rwxr-xr-x  1 sxf  staff   6.6K  2 22 09:32 protobuf-lite-arena-test
+-rw-r--r--  1 sxf  staff   594B  2 22 09:33 protobuf-lite-arena-test.log
+-rw-r--r--  1 sxf  staff    82B  2 22 09:33 protobuf-lite-arena-test.trs
+-rwxr-xr-x  1 sxf  staff   6.3K  2 22 09:32 protobuf-lite-test
+-rw-r--r--  1 sxf  staff    46B  2 22 09:33 protobuf-lite-test.log
+-rw-r--r--  1 sxf  staff    82B  2 22 09:33 protobuf-lite-test.trs
+-rwxr-xr-x  1 sxf  staff   6.5K  2 22 09:33 protobuf-test
+-rw-r--r--  1 sxf  staff   822K  2 22 09:33 protobuf-test.log
+-rw-r--r--  1 sxf  staff    82B  2 22 09:33 protobuf-test.trs
+-rwxr-xr-x  1 sxf  staff   6.2K  2 22 09:32 protoc
+drwxr-xr-x@ 3 sxf  staff   102B 12 31 05:26 solaris
+-rw-r--r--  1 sxf  staff   269B  2 22 09:33 test-suite.log
+-rwxr-xr-x  1 sxf  staff   6.3K  2 22 09:32 test_plugin
+-rw-r--r--  1 sxf  staff    22K  2 22 09:33 testzip.jar
+-rw-r--r--  1 sxf  staff   203B  2 22 09:33 testzip.list
+-rw-r--r--  1 sxf  staff   171B  2 22 09:33 testzip.proto
+-rw-r--r--  1 sxf  staff    23K  2 22 09:33 testzip.zip
+-rw-r--r--  1 sxf  staff     0B  2 22 09:32 unittest_proto_middleman
+-rwxr-xr-x  1 sxf  staff   6.1K  2 22 09:32 zcgunzip
+-rwxr-xr-x  1 sxf  staff   6.1K  2 22 09:32 zcgzip
+➜  src cd protoc
+cd: not a directory: protoc
+➜  src ../
+➜  protobuf-3.0.0-beta-2 ll
+total 4080
+-rw-r--r--@  1 sxf  staff    25K 12 31 05:21 BUILD
+-rw-r--r--@  1 sxf  staff    47K 12 31 05:21 CHANGES.txt
+-rw-r--r--@  1 sxf  staff   3.8K  6 16  2015 CONTRIBUTORS.txt
+-rw-r--r--@  1 sxf  staff   9.3K  6 16  2015 INSTALL.txt
+-rw-r--r--@  1 sxf  staff   2.1K 11 20 04:50 LICENSE
+-rw-r--r--   1 sxf  staff    81K  2 22 09:31 Makefile
+-rw-r--r--@  1 sxf  staff    53K 12 29 07:02 Makefile.am
+-rw-r--r--   1 sxf  staff    80K  2 22 09:30 Makefile.in
+-rw-r--r--@  1 sxf  staff   2.1K 10 28 04:02 Protobuf.podspec
+-rw-r--r--@  1 sxf  staff   6.6K  6 16  2015 README.md
+-rw-r--r--@  1 sxf  staff   682B 10 28 04:02 WORKSPACE
+-rw-r--r--   1 sxf  staff    45K  2 22 09:30 aclocal.m4
+-rwxr-xr-x   1 sxf  staff   5.7K  2 22 09:30 ar-lib
+-rwxr-xr--@  1 sxf  staff   1.1K 10 28 04:02 autogen.sh
+drwxr-xr-x@ 14 sxf  staff   476B 12 31 05:26 cmake
+-rwxr-xr-x   1 sxf  staff   7.2K  2 22 09:30 compile
+-rwxr-xr-x   1 sxf  staff    42K  2 22 09:30 config.guess
+-rw-r--r--   1 sxf  staff   4.0K  2 22 09:31 config.h
+-rw-r--r--   1 sxf  staff   3.7K  2 22 09:30 config.h.in
+-rw-r--r--   1 sxf  staff    55K  2 22 09:31 config.log
+-rwxr-xr-x   1 sxf  staff    68K  2 22 09:31 config.status
+-rwxr-xr-x   1 sxf  staff    35K  2 22 09:30 config.sub
+-rwxr-xr--@  1 sxf  staff   638K  2 22 09:30 configure
+-rw-r--r--@  1 sxf  staff   5.9K 12 29 07:02 configure.ac
+drwxr-xr-x@ 40 sxf  staff   1.3K  2 22 09:33 conformance
+-rwxr-xr-x   1 sxf  staff    23K  2 22 09:30 depcomp
+drwxr-xr-x@  5 sxf  staff   170B 12 31 05:26 editors
+drwxr-xr-x@ 15 sxf  staff   510B 12 31 05:26 examples
+-rwxr-xr--@  1 sxf  staff   3.1K 10 28 04:02 generate_descriptor_proto.sh
+drwxr-xr-x@ 27 sxf  staff   918B  2 22 09:32 gmock
+-rw-r--r--@  1 sxf  staff   661B 12 15 06:09 gmock.BUILD
+-rwxr-xr-x   1 sxf  staff    14K  2 22 09:30 install-sh
+-rwxr-xr-x   1 sxf  staff   337K  2 22 09:31 libtool
+-rw-r--r--   1 sxf  staff   316K  2 22 09:30 ltmain.sh
+drwxr-xr-x@ 11 sxf  staff   374B  2 22 09:30 m4
+-rwxr-xr-x   1 sxf  staff   6.7K  2 22 09:30 missing
+drwxr-xr-x@ 52 sxf  staff   1.7K  2 22 09:31 objectivec
+-rw-r--r--   1 sxf  staff   298B  2 22 09:31 protobuf-lite.pc
+-rw-r--r--@  1 sxf  staff   298B  6 16  2015 protobuf-lite.pc.in
+-rw-r--r--@  1 sxf  staff   8.1K 12 15 06:09 protobuf.bzl
+-rw-r--r--   1 sxf  staff   317B  2 22 09:31 protobuf.pc
+-rw-r--r--@  1 sxf  staff   319B  6 16  2015 protobuf.pc.in
+-rw-r--r--@  1 sxf  staff   227B 12 15 06:09 six.BUILD
+drwxr-xr-x@ 33 sxf  staff   1.1K  2 22 09:33 src
+-rw-r--r--   1 sxf  staff    23B  2 22 09:31 stamp-h1
+-rwxr-xr-x   1 sxf  staff   4.5K  2 22 09:30 test-driver
+-rwxr-xr--@  1 sxf  staff   5.9K 10 27 05:58 update_file_lists.sh
+drwxr-xr-x@  3 sxf  staff   102B 12 31 05:26 util
+➜  protobuf-3.0.0-beta-2 cd src/ll 
+cd: no such file or directory: src/ll
+➜  protobuf-3.0.0-beta-2 
+➜  protobuf-3.0.0-beta-2 open ./
+➜  protobuf-3.0.0-beta-2 cd src 
+➜  src ./proto
+zsh: no such file or directory: ./proto
+➜  src ./protoc 
+Missing input file.
+➜  src ln --help
+ln: illegal option -- -
+usage: ln [-Ffhinsv] source_file [target_file]
+       ln [-Ffhinsv] source_file ... target_dir
+       link source_file target_file
+➜  src ln -s /Users/sxf/Downloads/protobuf-3.0.0-beta-2/src/protoc /usr/bin 
+ln: /usr/bin/protoc: Operation not permitted
+➜  src sudo ln -s /Users/sxf/Downloads/protobuf-3.0.0-beta-2/src/protoc /usr/bin
+Password:
+ln: /usr/bin/protoc: Operation not permitted
+➜  src sudo ln -s /Users/sxf/Downloads/protobuf-3.0.0-beta-2/src/protoc /usr/bin
+ln: /usr/bin/protoc: Operation not permitted
+➜  src sudo ln -s /Users/sxf/Downloads/protobuf-3.0.0-beta-2/src/protoc /usr/bin/protoc
+ln: /usr/bin/protoc: Operation not permitted
+➜  src sudo ln -s /Users/sxf/Downloads/protobuf-3.0.0-beta-2/src/protoc /sbin 
+ln: /sbin/protoc: Operation not permitted
+➜  src sudo ln -s /Users/sxf/Downloads/protobuf-3.0.0-beta-2/src/protoc /usr/local/bin 
+➜  src 
+➜  src 
+➜  src protoc
+Missing input file.
+➜  src 
